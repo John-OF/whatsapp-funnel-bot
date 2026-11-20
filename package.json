@@ -1,0 +1,36 @@
+{
+  "name": "whatsapp-funnel-bot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Rule-based WhatsApp chatbot for a financial-education sales funnel, with Payphone payments and HubSpot CRM sync.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "simulate": "tsx scripts/simulate.ts",
+    "hubspot:setup": "tsx scripts/hubspot-setup.ts",
+    "payphone:check": "tsx scripts/payphone-check.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "db:migrate": "prisma migrate dev",
+    "db:generate": "prisma generate",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "dotenv": "^18.0.3",
+    "fastify": "^5.12.5",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "prisma": "^6.19.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.1"
+  }
+}

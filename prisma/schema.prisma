@@ -1,0 +1,56 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                 String   @id @default(cuid())
+  waId               String   @unique
+  name               String?
+  email              String?
+  consentAt          DateTime?
+  consentVersion     String?
+  step               String   @default("WELCOME")
+  stepData           String   @default("{}") // JSON
+  invalidInputCount  Int      @default(0)
+  diagnosticScore    Int?
+  diagnosticAnswers  String   @default("[]") // JSON
+  hubspotContactId   String?
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+  orders             Order[]
+  events             Event[]
+}
+
+model Order {
+  id                    String    @id @default(cuid())
+  userId                String
+  user                  User      @relation(fields: [userId], references: [id])
+  productId             String
+  amountCents           Int
+  clientTransactionId   String    @unique // max 15 chars (Payphone)
+  paymentUrl            String?
+  status                String    @default("pending") // pending | approved | canceled | expired
+  providerTransactionId String?
+  deliveredAt           DateTime?
+  createdAt             DateTime  @default(now())
+  paidAt                DateTime?
+}
+
+model Event {
+  id        String   @id @default(cuid())
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id])
+  type      String
+  payload   String   @default("{}") // JSON
+  createdAt DateTime @default(now())
+}
+
+model ProcessedMessage {
+  waMessageId String   @id
+  createdAt   DateTime @default(now())
+}

@@ -1,0 +1,10 @@
+node_modules
+dist
+.env
+*.db
+*.db-journal
+*.csv
+coverage
+*.log
+docs/SETUP.md
+docs/DECISIONS.md

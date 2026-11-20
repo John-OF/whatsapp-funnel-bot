@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 212" width="840" height="424" role="img" aria-labelledby="t d">
+<title id="t">WhatsApp funnel bot demo</title>
+<desc id="d">A WhatsApp conversation runs the assessment, the user pays through a Payphone link and the contact moves to the customer stage in HubSpot.</desc>
+<style>
+text{font-family:'Segoe UI', -apple-system, Helvetica, Arial, sans-serif}
+.mono{font-family:ui-monospace, 'Cascadia Mono', Consolas, 'SFMono-Regular', monospace}
+.bt{font-size:8.2px;fill:#1d2733}
+.bt-u{fill:#ffffff}
+.nname{font-size:9.4px;font-weight:600;fill:#1d2733}
+.nstat{font-size:7.8px;font-weight:600}
+.pillt{font-size:7.4px;letter-spacing:.5px;fill:#1d7f5c}
+@keyframes scene{0%{opacity:0}2.34%{opacity:1}93.75%{opacity:1}98.44%,100%{opacity:0}}
+@keyframes b0{0%,6.25%{opacity:0;transform:translateY(6px)}8.98%,100%{opacity:1;transform:translateY(0)}}
+@keyframes b1{0%,11.72%{opacity:0;transform:translateY(6px)}14.45%,100%{opacity:1;transform:translateY(0)}}
+@keyframes b2{0%,25.78%{opacity:0;transform:translateY(6px)}28.52%,100%{opacity:1;transform:translateY(0)}}
+@keyframes btn{0%,31.25%{opacity:0;transform:translateY(6px)}33.98%,100%{opacity:1;transform:translateY(0)}}
+@keyframes tap{0%,37.50%{fill:#f2efe6}37.66%,39.84%{fill:#1d7f5c}40.00%,100%{fill:#f2efe6}}
+@keyframes tapt{0%,37.50%{fill:#1d7f5c}37.66%,39.84%{fill:#f2efe6}40.00%,100%{fill:#1d7f5c}}
+@keyframes tick{0%,46.88%{stroke-dashoffset:30}50.78%,100%{stroke-dashoffset:0}}
+@keyframes pk0{0%,1.48%{opacity:0;transform:translate(262px,49px)}1.56%{opacity:1;transform:translate(262px,49px);animation-timing-function:cubic-bezier(.65,0,.35,1)}6.25%{opacity:1;transform:translate(178px,49px)}6.33%,100%{opacity:0;transform:translate(178px,49px)}}
+@keyframes pk1{0%,11.64%{opacity:0;transform:translate(178px,49px)}11.72%{opacity:1;transform:translate(178px,49px);animation-timing-function:cubic-bezier(.65,0,.35,1)}16.41%{opacity:1;transform:translate(262px,49px)}16.48%,100%{opacity:0;transform:translate(262px,49px)}}
+@keyframes pk2{0%,21.02%{opacity:0;transform:translate(262px,49px)}21.09%{opacity:1;transform:translate(262px,49px);animation-timing-function:cubic-bezier(.65,0,.35,1)}25.78%{opacity:1;transform:translate(178px,49px)}25.86%,100%{opacity:0;transform:translate(178px,49px)}}
+@keyframes pk3{0%,38.98%{opacity:0;transform:translate(178px,107px)}39.06%{opacity:1;transform:translate(178px,107px);animation-timing-function:cubic-bezier(.65,0,.35,1)}45.31%{opacity:1;transform:translate(262px,107px)}45.39%,100%{opacity:0;transform:translate(262px,107px)}}
+@keyframes pk4{0%,52.27%{opacity:0;transform:translate(178px,165px)}52.34%{opacity:1;transform:translate(178px,165px);animation-timing-function:cubic-bezier(.65,0,.35,1)}58.59%{opacity:1;transform:translate(262px,165px)}58.67%,100%{opacity:0;transform:translate(262px,165px)}}
+@keyframes glow0{0%{opacity:0}6.17%{opacity:0}6.25%,10.16%{opacity:1}10.23%{opacity:0}16.33%{opacity:0}16.41%,20.31%{opacity:1}20.39%{opacity:0}25.70%{opacity:0}25.78%,29.69%{opacity:1}29.77%{opacity:0}100%{opacity:0}}
+@keyframes glow1{0%{opacity:0}45.23%{opacity:0}45.31%,49.22%{opacity:1}49.30%{opacity:0}100%{opacity:0}}
+@keyframes glow2{0%{opacity:0}58.52%{opacity:0}58.59%,62.50%{opacity:1}62.58%{opacity:0}100%{opacity:0}}
+@keyframes st0{0%,16.41%{opacity:0}19.53%,100%{opacity:1}}
+@keyframes st1{0%,45.31%{opacity:0}48.44%,100%{opacity:1}}
+@keyframes st2{0%,58.59%{opacity:0}61.72%,100%{opacity:1}}
+.scene{animation:scene 12.8s linear infinite}
+.b0{animation:b0 12.8s linear infinite}
+.b1{animation:b1 12.8s linear infinite}
+.b2{animation:b2 12.8s linear infinite}
+.btn{animation:btn 12.8s linear infinite}
+.pill{animation:tap 12.8s linear infinite}
+.pillt{animation:tapt 12.8s linear infinite}
+.tick{animation:tick 12.8s linear infinite}
+.pk0{animation:pk0 12.8s linear infinite}
+.pk1{animation:pk1 12.8s linear infinite}
+.pk2{animation:pk2 12.8s linear infinite}
+.pk3{animation:pk3 12.8s linear infinite}
+.pk4{animation:pk4 12.8s linear infinite}
+.glow0{animation:glow0 12.8s linear infinite}
+.glow1{animation:glow1 12.8s linear infinite}
+.glow2{animation:glow2 12.8s linear infinite}
+.st0{animation:st0 12.8s linear infinite}
+.st1{animation:st1 12.8s linear infinite}
+.st2{animation:st2 12.8s linear infinite}
+.pk{opacity:0}.glow{opacity:0}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M10 0H0V10" fill="none" stroke="rgba(36,86,196,0.06)" stroke-width="1"/></pattern></defs>
+<rect width="420" height="212" fill="#f2efe6"/>
+<rect width="420" height="212" fill="url(#grid)"/>
+<g class="scene">
+<rect x="40" y="10" width="138" height="192" rx="14" fill="#f2efe6" stroke="#1d2733" stroke-width="1.6"/>
+<line x1="40" y1="30" x2="178" y2="30" stroke="rgba(29,39,51,0.16)"/>
+<rect x="94" y="17" width="30" height="5" rx="2.5" fill="rgba(29,39,51,0.16)"/>
+<g class="b0"><rect x="50" y="40" width="112" height="28" rx="6" fill="#e6e9f0"/><text x="58" y="52" class="bt">Vamos con un mini</text><text x="58" y="62" class="bt">diagnóstico de 4 preguntas</text></g>
+<g class="b1"><rect x="112" y="76" width="56" height="18" rx="6" fill="#22a15b"/><text x="160" y="88" class="bt bt-u" text-anchor="end">Empezar</text></g>
+<g class="b2"><rect x="50" y="102" width="112" height="28" rx="6" fill="#e6e9f0"/><text x="58" y="114" class="bt">Tu diagnóstico: 3 de 4</text><text x="58" y="124" class="bt">hábitos financieros sanos</text></g>
+<g class="btn"><rect class="pill" x="54" y="140" width="110" height="20" rx="10" fill="#f2efe6" stroke="#1d7f5c" stroke-width="1.4"/><text x="109" y="153.5" class="mono pillt" text-anchor="middle">Pagar con Payphone</text></g>
+<path class="tick" d="M100 178 l6 7 l12 -13" fill="none" stroke="#22a15b" stroke-width="2.4" stroke-dasharray="30" stroke-dashoffset="0"/>
+<line x1="178" y1="49" x2="262" y2="49" stroke="#47545f" stroke-dasharray="4 4"/><rect x="262" y="32" width="126" height="34" rx="3" fill="#f2efe6" stroke="#1d2733" stroke-width="1.3"/><rect class="glow glow0" x="262" y="32" width="126" height="34" rx="3" fill="none" stroke="#1d7f5c" stroke-width="2.2"/><text x="274" y="46" class="mono nname">WhatsApp</text><text x="274" y="58" class="mono nstat st0" fill="#47545f">signature verified</text><line x1="178" y1="107" x2="262" y2="107" stroke="#47545f" stroke-dasharray="4 4"/><rect x="262" y="90" width="126" height="34" rx="3" fill="#f2efe6" stroke="#1d2733" stroke-width="1.3"/><rect class="glow glow1" x="262" y="90" width="126" height="34" rx="3" fill="none" stroke="#1d7f5c" stroke-width="2.2"/><text x="274" y="104" class="mono nname">Payphone</text><text x="274" y="116" class="mono nstat st1" fill="#22a15b">PAYMENT APPROVED</text><line x1="178" y1="165" x2="262" y2="165" stroke="#47545f" stroke-dasharray="4 4"/><rect x="262" y="148" width="126" height="34" rx="3" fill="#f2efe6" stroke="#1d2733" stroke-width="1.3"/><rect class="glow glow2" x="262" y="148" width="126" height="34" rx="3" fill="none" stroke="#1d7f5c" stroke-width="2.2"/><text x="274" y="162" class="mono nname">HubSpot</text><text x="274" y="174" class="mono nstat st2" fill="#1d7f5c">stage: customer</text>
+<circle class="pk pk0" r="4" cx="0" cy="0" fill="#1d7f5c"/><circle class="pk pk1" r="4" cx="0" cy="0" fill="#1d7f5c"/><circle class="pk pk2" r="4" cx="0" cy="0" fill="#1d7f5c"/><circle class="pk pk3" r="4" cx="0" cy="0" fill="#1d7f5c"/><circle class="pk pk4" r="4" cx="0" cy="0" fill="#1d7f5c"/>
+</g>
+</svg>
